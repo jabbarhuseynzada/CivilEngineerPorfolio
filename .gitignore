@@ -11,11 +11,28 @@ client/dist/
 .vite/
 
 # ── .NET ──────────────────────────────────────────────────────────────────────
-server/bin/
-server/obj/
+**/bin/
+**/obj/
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
+
+# ── Visual Studio ─────────────────────────────────────────────────────────────
 .vs/
+*.rsuser
+.vscode/
+*.code-workspace
+_ReSharper*/
+*.DotSettings.user
+BenchmarkDotNet.Artifacts/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ── Rider ─────────────────────────────────────────────────────────────────────
+.idea/
+*.sln.iml
 
 # ── OS ────────────────────────────────────────────────────────────────────────
 .DS_Store
