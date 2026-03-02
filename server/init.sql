@@ -50,9 +50,9 @@ CREATE TABLE IF NOT EXISTS site_settings (
     working_hours JSONB NOT NULL DEFAULT '[]',
     social_links JSONB NOT NULL DEFAULT '[]',
     core_values JSONB NOT NULL DEFAULT '[]',
-    hero_title TEXT NOT NULL DEFAULT 'Evinizi Xəyallarınızdan Həqiqətə Çeviririk',
+    hero_title TEXT NOT NULL DEFAULT 'Xəyalınızdakı Evi Reallığa Çeviririk',
     hero_subtitle TEXT NOT NULL DEFAULT '20 illik təcrübə ilə tam tikinti, təmir, elektrik işləri və daha çoxunu peşəkar keyfiyyətdə təqdim edirik.',
-    hero_tagline TEXT NOT NULL DEFAULT 'Professional Tikinti Xidmətləri',
+    hero_tagline TEXT NOT NULL DEFAULT 'Peşəkar Tikinti Xidmətləri',
     hero_images JSONB NOT NULL DEFAULT '[]',
     about_heading TEXT NOT NULL DEFAULT 'Sizin Xəyallarınızı Həyata Keçiririk',
     about_images JSONB NOT NULL DEFAULT '[]'
